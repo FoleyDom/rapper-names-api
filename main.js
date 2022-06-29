@@ -1,3 +1,12 @@
+app.post('/main.js', (req, res) => {
+    rappers
+        .push()
+        // .then((result) => {
+        // 	res.redirect('/')
+        // })
+        .catch((error) => console.error(error))
+})
+
 const rappers = {
     '21 savage': {
         age: 29,
